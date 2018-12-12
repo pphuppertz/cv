@@ -4,29 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>Peter's personal site</title>
-  <style>
-    body {
-      border-style: none;
-      background-color: #c7f2e3;
-    }
-    hr {
-      height: 0px;
-      width: 5%;
-      border-style: none;
-      border-color: grey;
-      border-top-style: dotted;
-      border-width: 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <table cellspacing="20">
     <tbody>
       <tr>
-        <td><img src="https://cdn-images-1.medium.com/max/1200/0*3uMHuhQFBob0GED8." alt="Should be a pic here..."></td>
+        <td><img class="circular" src="https://cdn-images-1.medium.com/max/1200/0*3uMHuhQFBob0GED8." alt="Should be a pic here..."></td>
         <td>
-          <h1>Peter Huppertz</h1>
+          <h1 id="title">Peter Huppertz</h1>
           <p><em>Software Developer at <strong><a href="https://www.peterhuppertz.net/blog/">Department of Confusion and Bewilderment</a></strong></em></p>
           <p>I am a C# developer, and Laura Hamm's course buddy on Udemy's The Complete 2019 Web Developer training.</p>
         </td>
@@ -91,9 +78,9 @@
   </tr>
   </table>
   <hr>
-  <a href="hobbies.html">My hobbies</a>
-  <p><a href="contact.html">Contact me</a> </p>
-  <a href="htmlcheatsheet.pdf" download>Download cheat sheet</a>
+  <a class="link" href="hobbies.html">My hobbies</a>
+  <p><a class="link" href="contact.html">Contact me</a> </p>
+  <a class="link" href="htmlcheatsheet.pdf" download>Download cheat sheet</a>
   <hr>
 </body>
 
